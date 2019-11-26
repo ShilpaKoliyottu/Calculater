@@ -59,13 +59,11 @@ namespace Calculater
                         Console.WriteLine("\n");
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
-                finally {
-                    Console.WriteLine("Hi!");
-                }
+
             }
 
         }

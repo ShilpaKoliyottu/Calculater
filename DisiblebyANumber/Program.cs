@@ -8,19 +8,21 @@ namespace DisiblebyANumber
     {
         static void Main(string[] args)
         {
-            //string result=null;
+            string result = null;
             List<int> NumberList = new List<int>();
             for (int i = 1; i <= 100; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
                     NumberList.Add(i);
-                    //result +=i+",";
+                    result += i + ",";
                 }
             }
-            //Console.WriteLine(result.TrimEnd(','));
+            Console.WriteLine(result.TrimEnd(','));
+            Console.WriteLine(result.TrimEnd(','));
 
-            Console.WriteLine(string.Join(',', NumberList)); 
+            Console.WriteLine(string.Join(',', NumberList));
+            Console.WriteLine("________END_______");
 
         }
     }

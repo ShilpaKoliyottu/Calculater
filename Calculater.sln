@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Febinocci", "Febinocci\Febi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrom", "Palindrom\Palindrom.csproj", "{B26A5836-E2E4-4706-9AE3-837A2861CE3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oops001", "oops001\oops001.csproj", "{3FAE4F8C-4987-48F1-9C5D-38633DE1B06D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oops001", "oops001\oops001.csproj", "{3FAE4F8C-4987-48F1-9C5D-38633DE1B06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{9F786E7E-D879-4629-905A-88399A87D491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{3FAE4F8C-4987-48F1-9C5D-38633DE1B06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FAE4F8C-4987-48F1-9C5D-38633DE1B06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FAE4F8C-4987-48F1-9C5D-38633DE1B06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F786E7E-D879-4629-905A-88399A87D491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F786E7E-D879-4629-905A-88399A87D491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F786E7E-D879-4629-905A-88399A87D491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F786E7E-D879-4629-905A-88399A87D491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
